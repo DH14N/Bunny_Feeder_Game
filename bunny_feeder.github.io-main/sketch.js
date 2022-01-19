@@ -157,7 +157,7 @@ function draw()
     eating_sound.play();
   }
 
-  if(fruit!=null && fruit.position.y>=700)
+  if(fruit!=null && fruit.position.y>=200)
   {
     bunny.changeAnimation('crying');
     bk_song.stop();
