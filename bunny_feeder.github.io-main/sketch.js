@@ -159,7 +159,7 @@ function draw()
 
   if(fruit!=null && fruit.position.y>=650)
   {
-    bunny.changeAnimation('blinking');
+    bunny.changeAnimation('crying');
     bk_song.stop();
     sad_sound.play();
     fruit=null;
